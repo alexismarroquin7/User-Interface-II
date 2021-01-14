@@ -1,1 +1,66 @@
 /* Add CSS styling here */
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-size: 10px;
+}
+
+header {
+    /* background-color:lightgrey; */
+}
+
+header .container .myName {
+    display:flex;
+    justify-content:center;
+}
+
+header .container .myName h1 {
+    font-size: 5rem;
+    margin:3vh;
+}
+
+header .container nav {
+    display:flex;
+    justify-content:center;
+    font-size:2rem;
+    /* background-color:lightgrey; */
+    width:100vw;
+    margin:1% 0;
+
+}
+
+header .container nav a {
+    font-size:2rem;
+    text-decoration:none;
+    color:lightblue;
+    padding:.5vw 5vw;
+    /* border: 1px solid black; */
+
+}
+
+section .introContainer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-flow:column wrap;
+}
+
+section .introContainer .introHeader {
+    margin:2% 4%;
+    font-size: 4rem;
+}
+
+section .introContainer p {
+    font-size: 4rem;
+    text-align:center;
+    margin:2% 4%;
+}
+
+section .fullSizeDiv {
+    width:100vw;
+    height:50vh;
+    background-color:lightblue;
+    margin:2% 0;
+}
