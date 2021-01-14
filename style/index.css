@@ -64,3 +64,47 @@ section .fullSizeDiv {
     background-color:lightblue;
     margin:2% 0;
 }
+
+section .lowerSectionDiv {
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow:row wrap;
+    width:100vw;
+    height:100vh;
+    padding: 4%;
+}
+
+section .lowerSectionDiv .lowerSecImg {
+    border:1px solid red;
+    background-color:violet;
+    background-image:url('https://www.picsum.photos/300');
+    width:20vw;
+    height:80vh;
+    margin:2% auto;
+    /* background-position: absolute; */
+}
+
+section .lowerSectionDiv .someText {
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+section .lowerSectionDiv .someText .lowerSecText {
+    font-size: 2rem;
+}
+
+footer nav {
+    display:flex;
+    width:100%;
+    background-color:lightgrey;
+    justify-content: center;
+    padding:2% auto;
+}
+
+footer nav a {
+    font-size:2rem;
+    text-decoration:none;
+    background-color:lightblue;
+    padding:.5vw 5vw;
+}
