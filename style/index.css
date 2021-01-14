@@ -1,3 +1,13 @@
+/* header font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,700;1,700&display=swap');
+/* font-family: 'IBM Plex Sans', sans-serif; */
+
+/* regular text */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* font-family: 'IBM Plex Sans', sans-serif; */
+
+
+
 /* Add CSS styling here */
 
 * {
@@ -19,15 +29,15 @@ header .container .myName {
 header .container .myName h1 {
     font-size: 5rem;
     margin:3vh;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 header .container nav {
     display:flex;
     justify-content:center;
-    font-size:2rem;
-    /* background-color:lightgrey; */
     width:100vw;
     margin:1% 0;
+    
 
 }
 
@@ -36,7 +46,7 @@ header .container nav a {
     text-decoration:none;
     color:lightblue;
     padding:.5vw 5vw;
-    /* border: 1px solid black; */
+    font-family: 'IBM Plex Sans', sans-serif;
 
 }
 
@@ -49,13 +59,15 @@ section .introContainer {
 
 section .introContainer .introHeader {
     margin:2% 4%;
-    font-size: 4rem;
+    font-size: 3rem;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 section .introContainer p {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align:center;
     margin:2% 4%;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 section .fullSizeDiv {
@@ -92,6 +104,7 @@ section .lowerSectionDiv .someText {
 
 section .lowerSectionDiv .someText .lowerSecText {
     font-size: 2rem;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 footer nav {
@@ -107,4 +120,5 @@ footer nav a {
     text-decoration:none;
     background-color:lightblue;
     padding:.5vw 5vw;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
