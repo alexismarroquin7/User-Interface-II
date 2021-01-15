@@ -19,6 +19,7 @@
 
 body {
     overflow-x: hidden;
+    background-color:whitesmoke;
 }
 
 header {
@@ -53,6 +54,12 @@ header .container nav a {
     font-family: 'IBM Plex Sans', sans-serif;
 
 }
+
+header .container nav a#selectedPage {
+    color: black;
+    text-shadow:2px 2px lightblue;
+}
+
 
 section .introContainer {
     display:flex;
@@ -132,7 +139,7 @@ footer nav {
     display:flex;
     width:100%;
     /* height:10vh; */
-    background-color:lightgrey;
+    background-color:lightblue;
     justify-content: center;
     align-items:center;
     padding:2% auto;
