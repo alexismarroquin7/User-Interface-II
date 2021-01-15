@@ -62,9 +62,19 @@ header .container nav a {
 
 }
 
+header .container nav a:hover {
+    color:teal;
+    text-shadow:2px 2px white;
+}
+
 header .container nav a#selectedPage {
     color: black;
     text-shadow:2px 2px lightblue;
+}
+
+header .container nav a#selectedPage:hover {
+    color: teal;
+    text-shadow:2px 2px white;
 }
 
 
@@ -86,6 +96,7 @@ section .introContainer p {
     text-align:center;
     margin:2% 4%;
     font-family: 'IBM Plex Sans', sans-serif;
+    text-indent:12rem;
 }
 
 section .fullSizeDiv {
