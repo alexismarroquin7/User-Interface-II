@@ -31,10 +31,17 @@ header .container .myName {
     justify-content:center;
 }
 
-header .container .myName h1 {
-    font-size: 5rem;
+header .container .myName h1, h2 {
     margin:3vh;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+header .container .myName h1 {
+    font-size: 5rem;
+}
+
+header .container .myName h2 {
+    font-size: 3rem;
 }
 
 header .container nav {
@@ -107,6 +114,7 @@ section .lowerSectionDiv .lowerSecImg {
     background-image:url('https://www.picsum.photos/300/600');
     width:300px;
     height:600px;
+    margin: 2% auto;
     /* border: 1px solid red; */
 }
 
@@ -149,7 +157,13 @@ footer nav a {
     display:block;
     font-size:2rem;
     text-decoration:none;
-    /* background-color:lightblue; */
-    padding:3.5vh 10vw;
+    /* background-color:blue; */
+    color:white;
+    padding:3.5vh 7vw;
     font-family: 'IBM Plex Sans', sans-serif;
+}
+
+footer nav a:hover {
+    color: black;
+    text-shadow:2px 0 white;
 }
