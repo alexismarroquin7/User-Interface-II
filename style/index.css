@@ -22,10 +22,6 @@ body {
     background-color:whitesmoke;
 }
 
-/* header { */
-    /* background-color:lightgrey; */
-/* } */
-
 header .container .myName {
     display:flex;
     justify-content:center;
@@ -48,9 +44,7 @@ header .container nav {
     display:flex;
     justify-content:center;
     width:100vw;
-    margin:1% 0;
-    
-
+    margin:1% auto;
 }
 
 header .container nav a {
@@ -115,8 +109,6 @@ section .lowerSectionDiv {
     align-content:space-around;
     flex-flow:row wrap;
     width:100%;
-    /* border: 1px solid red; */
-    /* padding:2% auto; */
     
 }
 
@@ -127,7 +119,6 @@ section .lowerSectionDiv .lowerSecImg {
     width:300px;
     height:600px;
     margin: 2% auto;
-    /* border: 1px solid red; */
 }
 
 section .lowerSectionDiv .someText {
@@ -136,7 +127,6 @@ section .lowerSectionDiv .someText {
     align-items:center;
     width:300px;
     height:120px;
-    /* border: 1px solid red; */
 }
 
 section .lowerSectionDiv .someText .lowerSecText {
@@ -218,15 +208,35 @@ section .contactTable .contactItem p {
 /* MEDIA BREAK POINTS */
 
 @media (max-width:800px){
+    section .introContainer p {
+        text-align:left;
+    }
+
     section .fullSizeDiv {
-        width:80vw;
+        width:90vw;
+        height:40vh;
         margin:2% auto;
         background-size:350% 110%;
+    }
+    section .lowerSectionDiv {
+        flex-flow:row wrap;
+    }
+    .lowerSectionDiv .lowerSecImg {
+        width:20vw;
+    }
+    .lowerSectionDiv .someText .lowerSecText {
+        text-align:center;
     }
 }
 
 @media (max-width:500px) {
-    section .fullSizeDiv {
-        width:60vw;
+    section .lowerSectionDiv .lowerSecImg {
+        width:200px;
+        height:50vh;
     }
+    header .container nav {
+        flex-flow:column wrap;
+        align-items:center;
+    }
+    
 }
