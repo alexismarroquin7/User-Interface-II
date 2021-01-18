@@ -14,7 +14,7 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
-    font-size: 10px;
+    font-size: 62.5%;
 }
 
 body {
@@ -22,9 +22,9 @@ body {
     background-color:whitesmoke;
 }
 
-header {
+/* header { */
     /* background-color:lightgrey; */
-}
+/* } */
 
 header .container .myName {
     display:flex;
@@ -104,7 +104,8 @@ section .fullSizeDiv {
     height:50vh;
     background-color:lightblue;
     background:url('https://picsum.photos/1920/540');
-    margin:2% 0;
+    margin:2vh auto;
+    background-position:center;
 }
 
 section .lowerSectionDiv {
@@ -202,8 +203,6 @@ section .contactTable .contactItem {
     flex-flow:row wrap;
     align-items: center;
     padding:5vw;
-    /* border:1px solid white; */
-    /* border-radius: 15%; */
     transition:.2s;
 }
 
@@ -216,3 +215,18 @@ section .contactTable .contactItem p {
     font-size: 3rem;
 }
 
+/* MEDIA BREAK POINTS */
+
+@media (max-width:800px){
+    section .fullSizeDiv {
+        width:80vw;
+        margin:2% auto;
+        background-size:350% 110%;
+    }
+}
+
+@media (max-width:500px) {
+    section .fullSizeDiv {
+        width:60vw;
+    }
+}
